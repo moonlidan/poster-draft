@@ -20,7 +20,7 @@ body {
     margin: 0 auto;
 }
 
-.header, .footer {
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,51 +108,4 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-}
-
-
-@media (max-width: 767px) {
-
-    body {
-        padding: 15px;
-    }
-
-    .header h1 {
-        font-size: 22px;
-    }
-
-    .bento {
-        flex-direction: column-reverse;
-        height: auto;
-    }
-
-    .photo {
-        flex: none;
-        height: 300px;
-    }
-
-    .info {
-        flex: auto;
-    }
-
-    .green {
-        min-height: 220px;
-    }
-
-    .green h2 {
-        font-size: 36px;
-    }
-
-    .mini-row {
-        flex-direction: column;
-    }
-
-    .dark {
-        min-height: 160px;
-    }
-
-    .footer {
-        font-size: 12px;
-    }
-    
 }
